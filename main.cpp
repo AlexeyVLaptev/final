@@ -128,7 +128,7 @@ int main(int argc, char** argv) {
 		close(STDIN_FILENO);
 		close(STDOUT_FILENO);
 		close(STDERR_FILENO);
-		chdir(directory));
+		chdir(directory);
 
 		//now start listenning
 		if (listen(masterSocket, SOMAXCONN)) //returns 0 if success
